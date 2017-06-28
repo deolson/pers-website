@@ -116,3 +116,12 @@ h4 {
   height: 100%;
   margin-left: -25px;
 }
+
+.bg-shadow {
+  background-color: rgba(0, 0, 0, 0.6) !important;
+}
+
+.bg-shadow p {
+  color: white;
+  height: 10px;
+}
