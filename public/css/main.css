@@ -1,0 +1,118 @@
+body {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  font-family: 'Open Sans', sans-serif;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+li {
+  list-style: none;
+  display: inline-block
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h4 {
+  font-family: 'PT Sans Narrow', Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: white;
+}
+
+/* Navbar */
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.6) !important;
+  border: none !important;
+  text-transform: uppercase;
+  font-family: Arial, sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+.navbar-default {
+  background: rgba(0, 0, 0, 0.6); !important;
+}
+
+.navbar a {
+  color: rgba(255, 255, 255, 1) !important;
+}
+
+.navbar a:hover {
+  background-color: rgba(53, 107, 158, 0.6) !important;
+}
+
+.navbar-brand {
+  float: none;
+  width: 100%;
+}
+
+.navbar-nav {
+  width: 100%;
+  text-align: center;
+}
+
+.navbar-nav > li {
+  float: none;
+  display: inline-block;
+  margin: 0 8px 0;
+}
+
+
+.text-center {
+  display: inline-block;
+  text-align: center;
+}
+
+/* name */
+
+.highlight-char {
+  color: #a3fff9 !important;
+  opacity: 1;
+  margin: 0px;
+}
+
+
+
+
+
+/* Header */
+.header {
+  height: 100vh;
+  padding: 60px 0 60px;
+  background-image: linear-gradient(rgba(0, 0, 20, 0.3), rgba(0, 0, 20, 0.3)), url(../images/scotland.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/* Images */
+
+.circular-portrait {
+  transform: translate(-50%, -50%);
+  left: 50%;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .8);
+  margin-top: 300px;
+}
+
+.circular-portrait img {
+  width: auto;
+  height: 100%;
+  margin-left: -25px;
+}
